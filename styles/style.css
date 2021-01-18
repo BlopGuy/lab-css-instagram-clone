@@ -40,14 +40,18 @@ body {
 .login-button {
   display: flex;
   align-items: center;
-  border-radius: 5px;
-  width: 6rem;
-  height: 2.5rem;
+  border-radius: 3px;
+  width: 5rem;
+  height: 2.3rem;
   justify-content: space-evenly;
   color: white;
   border: none;
   box-shadow:outset 2px 2px 2px 2px #06365f;
   background:linear-gradient(to bottom, #1c5380 2%, #06365f 100%);
+}
+
+.login {
+  width: 1.2rem;
 }
 
 .top-div {
