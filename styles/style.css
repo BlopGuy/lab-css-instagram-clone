@@ -33,7 +33,6 @@ body {
 
 .right-div {
   margin: 3rem 1rem 1rem 1rem;
-
 }
 
 
@@ -41,13 +40,14 @@ body {
 .login-button {
   display: flex;
   align-items: center;
-  background-color: #1c5380;
   border-radius: 5px;
   width: 6rem;
   height: 2.5rem;
   justify-content: space-evenly;
   color: white;
   border: none;
+  box-shadow:outset 2px 2px 2px 2px #06365f;
+  background:linear-gradient(to bottom, #1c5380 2%, #06365f 100%);
 }
 
 .top-div {
@@ -104,7 +104,7 @@ body {
   top: 35rem;
   justify-content: space-between;
   align-items: center;
-  width: 35%;
+  width: 30rem;
   text-decoration: none;
   
   
